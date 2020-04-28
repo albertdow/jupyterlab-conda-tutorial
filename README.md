@@ -58,7 +58,7 @@ conda env create -n myenv_py3 --file environment.yml python=3
 
 Run the following commands in `/vols/build/` in `lx02`:
 
-wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
+    wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
 
     bash Miniconda2-latest-Linux-x86_64.sh # and follow instructions.
 
