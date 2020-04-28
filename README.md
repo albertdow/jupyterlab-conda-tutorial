@@ -5,7 +5,7 @@ Repository for creating a conda environment to use with JupyterLab
 ### For concise version use "Quick install instructions" (see below)
 ### If you already have a python3 conda environment you can skip this part
 
-In (at least) lx02 do: (I would use at least lx02)
+First log into lx02 or lx03 (this is what I use).
 
 I recommend to install miniconda which is a python package manager
 and useful for many things, especially when you don't have root access.
@@ -14,15 +14,16 @@ Follow instructions here
 (https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 or do what I propose next:
 
-Basically you need to download the relevant installer, so I would get the `Miniconda Linux 64-bit` 
-and copy this into lx02, and run there with 
-`bash Miniconda2-latest-Linux-x86_64.sh`. I recommend doing this in `/vols/build/` as there is more space.
+Basically you need to get the relevant installer and install it.
+I recommend doing this in `/vols/build/` as there is more space:
 
     wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
 
 and then run it with
 
-    bash <local_path>/Miniconda2-latest-Linux-x86_64.sh
+    bash Miniconda2-latest-Linux-x86_64.sh
+
+and follow instructions.
 
 Then you can create a new virtual environment with 
 
@@ -42,7 +43,7 @@ eg.
 
 A useful list of things to have is `numpy scipy pandas scikit-learn uproot matplotlib`
 
-To not activate conda every time you log into lx02 do:
+To not activate conda by default every time you log into lx02 do:
 
     conda config --set auto_activate_base false
 
