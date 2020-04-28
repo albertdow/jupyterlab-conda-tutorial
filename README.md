@@ -43,15 +43,15 @@ A useful list of things to have is `numpy scipy pandas scikit-learn uproot matpl
 
 - To not activate conda every time you log into lx02 do:
 
-conda config --set auto_activate_base false
+    conda config --set auto_activate_base false
 
 - If you want to simply copy what I use (which should have quite a lot of the 
 things you would need + ROOT 6.18 installed as well, i.e. you can work outside
 of CMSSW completely if you like):
 
-Copy the `environment.yml` from `/home/hep/akd116/public_html/Random/` to your local.
+Copy the `environment.yml` from `/home/hep/akd116/public_html/Random/` to your local:
 
-conda env create -n myenv_py3 --file environment.yml python=3
+    conda env create -n myenv_py3 --file environment.yml python=3
 
 
 ### Quick install instructions for conda with JupyterLab:
