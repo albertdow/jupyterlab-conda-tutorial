@@ -15,7 +15,7 @@ or do what I propose next:
 
 - Basically you need to download the relevant installer, so I would get the `Miniconda Linux 64-bit` 
 and copy this into lx02, and run there with 
-bash Miniconda3-latest-Linux-x86_64.sh`. I recommend doing this in `/vols/build/` as there is more space.
+`bash Miniconda2-latest-Linux-x86_64.sh`. I recommend doing this in `/vols/build/` as there is more space.
 
     wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
 
