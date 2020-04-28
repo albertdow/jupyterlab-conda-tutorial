@@ -83,7 +83,7 @@ lx02 the way you normally do adding `-Y -N -L localhost:<port>:localhost:<port>`
 
 So for example I do (if you have your lx02 set-up in you ssh config):
 
-    ssh -Y -N -L localhost:1234:localhost:1234 lx02`
+    ssh -Y -N -L localhost:1234:localhost:1234 lx02
 
 or otherwise
 
