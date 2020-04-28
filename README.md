@@ -1,6 +1,10 @@
 # jupyterlab-conda-tutorial
 Repository for creating a conda environment to use with JupyterLab
 
+### Clone this repository to use example notebook
+
+    git clone git@github:albertdow/jupyterlab-conda-tutorial
+
 ## Setting up JupyterLab (only needs to be done once - read through before deciding what to do!)
 ### For concise version use "Quick install instructions" (see below)
 ### If you already have a python3 conda environment you can skip this part
