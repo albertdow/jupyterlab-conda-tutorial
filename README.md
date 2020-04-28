@@ -100,13 +100,14 @@ Then set up a jupyter lab session in lx02 using same port as for tunnelling:
 
 Follow instructions by copying the printed link into your browser and you should be ready to go.
 
-Finally I recommend using tmux to keep the JupyterLab server active even if ssh connection drops or you log out.
+Now open the provided `example_for_ICtaus.ipynb` notebook from inside JupyterLab; you 
+should be able to find it in the current directory if that is where you created the
+server. For running the example plot, also set-up CMS plotting style (see below).
 
-Now open the provided `example_for_ICtaus.ipynb` notebook and follow example.
-
+(By the way, I recommend using tmux to keep the JupyterLab server active even if ssh connection drops or you log out)
 
 ### CMS plotting style (used in the example notebook)
-To have proper CMS-style plots (which we want) get the CMS style from
+To have proper CMS-style plots get the CMS style from
 
     export MPLCONFIGDIR=./mpl_configdir/
 
