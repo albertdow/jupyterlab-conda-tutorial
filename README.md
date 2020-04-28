@@ -3,6 +3,7 @@ Repository for creating a conda environment to use with JupyterLab
 
 ## Setting up JupyterLab (only needs to be done once - read through before deciding what to do!)
 ### For concise version use "Quick install instructions" (see below)
+### If you already have a python3 conda environment you can skip this part
 
 In (at least) lx02 do: (I would use at least lx02)
 
@@ -68,6 +69,10 @@ Now go to cloned albertdow/jupyterlab-conda-tutorial directory and run
     rsync -azP /home/hep/akd116/public_html/Random/environment.yml .
 
     conda env create --n myenv_py3 --file environment.yml python=3
+
+### If you already have a python3 conda environment:
+
+Just activate that environment and pip install jupyterlab.
 
 ## Setting up JupyerLab session (do this every time):
 
