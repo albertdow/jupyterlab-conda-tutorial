@@ -6,14 +6,14 @@ Repository for creating a conda environment to use with JupyterLab
 
 In (at least) lx02 do: (I would use at least lx02)
 
-- I recommend to install miniconda which is a python package manager
+I recommend to install miniconda which is a python package manager
 and useful for many things, especially when you don't have root access.
 
 Follow instructions here 
 (https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 or do what I propose next:
 
-- Basically you need to download the relevant installer, so I would get the `Miniconda Linux 64-bit` 
+Basically you need to download the relevant installer, so I would get the `Miniconda Linux 64-bit` 
 and copy this into lx02, and run there with 
 `bash Miniconda2-latest-Linux-x86_64.sh`. I recommend doing this in `/vols/build/` as there is more space.
 
@@ -41,11 +41,11 @@ eg.
 
 A useful list of things to have is `numpy scipy pandas scikit-learn uproot matplotlib`
 
-- To not activate conda every time you log into lx02 do:
+To not activate conda every time you log into lx02 do:
 
     conda config --set auto_activate_base false
 
-- If you want to simply copy what I use (which should have quite a lot of the 
+If you want to simply copy what I use (which should have quite a lot of the 
 things you would need + ROOT 6.18 installed as well, i.e. you can work outside
 of CMSSW completely if you like):
 
