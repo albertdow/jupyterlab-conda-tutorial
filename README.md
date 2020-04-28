@@ -66,8 +66,6 @@ Run the following commands in `/vols/build/` in `lx02`:
 
 Now go to cloned albertdow/jupyterlab-conda-tutorial directory and run 
 
-    rsync -azP /home/hep/akd116/public_html/Random/environment.yml .
-
     conda env create --n myenv_py3 --file environment.yml python=3
 
 ### If you already have a python3 conda environment:
